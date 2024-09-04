@@ -63,6 +63,7 @@ export const getCommandline = function (
     "--config=deno.jsonc",
     "--allow-read",
     "--allow-env",
+    "--allow-run",
   ];
 
   const allowedDomains = manifest.outgoing_domains ?? [];
